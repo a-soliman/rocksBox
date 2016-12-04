@@ -216,6 +216,63 @@
 			</div>
 		</section>
 		<!-- site-content end -->
+
+		<!-- footer start -->
+		<footer ng-app="footerLinks">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="col-xs-12 col-md-4">
+						<div class="social">
+							<img src="img/r-mark.png" alt="R" class="r">
+							<ul class="social-icon">
+								<li>
+									<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+							<img src="img/rocksbox.png" alt="" class="rocks">
+						</div>
+						<div class="content">
+							<h4>Be the first to know!</h4>
+							<p>Get the latest exclusive offers, jewelry <br> trends, style tips and inspiration delivered <br>straight to your mailbox.</p>
+							<input type="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-8">
+						<div class="links">
+							<ul ng-controller="servicesCtrl">
+								<li class="header">The Service</li>
+								<li ng-repeat="link in services">
+									<a href={{link.link}}>{{link.name}}</a>
+								</li>
+							</ul>
+							<ul ng-controller="companyCtrl">
+								<li class="header">The Company</li>
+								<li ng-repeat="link in company">
+									<a href={{link.link}}>{{link.name}}</a>
+								</li>
+							</ul>
+							<ul ng-controller="inTouchCtrl">
+								<li class="header">Get in touch</li>
+								<li ng-repeat="link in intouch">
+									<a href={{link.link}}>{{link.name}}</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- footer end -->
 		
 	
 		<!-- ******Jquery GOOGLE CDN***** -->
