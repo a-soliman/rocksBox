@@ -63,3 +63,66 @@ button.join:hover {
     color: #f8b9ab;
 }
 /*nav end*/
+/*intro start*/
+.intro {
+	margin-top: 80px;
+}
+.intro .item img {
+	height: 405px;
+}
+
+.carousel-indicators li {
+	background-color: #f8b9ab;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 11px;
+    height: 11px;
+    border: none;
+}
+.intro-box {
+	position: absolute;
+    top: 60px;
+    padding: 20px 10px;
+	width: 290px;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.intro-box:hover {
+	background-color: #fff;
+}
+.intro-box h2 {}
+.intro-box p {
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+.intro-box span {}
+.intro-box input {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #aaaaaa;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+.intro-box button {
+	display: block;
+	width: 100%;
+	background-color: #c0355d;
+	border: 1px solid #c0355d;
+	border-radius: 0; 
+	color: #ffffff;
+}
+.intro-box button:hover {
+	background-color: #c0355d;
+    color: #f8b9ab;
+}
+/*intro end*/
