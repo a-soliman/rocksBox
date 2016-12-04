@@ -16,3 +16,50 @@ li {
 	text-transform: uppercase;
 }
 /*end Pre-fix*/
+
+/*nav start*/
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 15px 0 5px 0;
+	background-color: #fff;
+	z-index: 100;
+}
+.logo {
+	max-width: 150px;
+}
+nav ul {
+	float: right;
+}
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 3;
+}
+nav .btn {
+	
+    background-color: #ffffff;
+    border: 2px solid #aaaaaa;
+    border-radius: 0;
+    color: #aaaaaa;
+    font-size: 15px;
+    padding-top: 7px;
+}
+nav .btn:hover {
+	background-color: #aaaaaa;
+	color: #ffffff;
+}
+button.join {
+	background-color: #c0355d;
+	border-color: #c0355d; 
+	color: #ffffff;
+	border-radius: 0; 
+}
+button.join:hover {
+	background-color: #c0355d;
+	border-color: #c0355d; 
+    color: #f8b9ab;
+}
+/*nav end*/
