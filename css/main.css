@@ -1,0 +1,18 @@
+/*Pre-fix*/
+* {
+	border-radius: 0;
+}
+a {
+	color: #5b6974;
+}
+a:hover {
+	color: #c0355d;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.btn {
+	text-transform: uppercase;
+}
+/*end Pre-fix*/
