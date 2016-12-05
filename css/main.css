@@ -258,3 +258,37 @@ button.join:hover {
     color: #aaaaaa;
 }
 /*access end*/
+
+/*brands start*/
+.brands {}
+.brands img {
+	height: 27px;
+    width: 130px;
+    border: 0;
+    vertical-align: middle;
+    margin: 25px 25px 20px 25px;
+}.brands .content {
+	margin: 50px;
+}
+.brands .content h5 {
+	font-weight: 300;
+    line-height: 1.9;
+    color: #333;
+    letter-spacing: 2px;
+}
+.brands span {
+	font-weight: bold;
+}
+.brands span.blue {
+	color: #004d7b;
+}
+.brands hr {
+	width: 60%;
+	/*width: 630px;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8b9ab;
+    border-color: #f8b9ab;
+    margin-bottom: 30px;
+}
+/*brands end*/
