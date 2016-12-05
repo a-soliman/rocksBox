@@ -292,3 +292,75 @@ button.join:hover {
     margin-bottom: 30px;
 }
 /*brands end*/
+
+/*footer start*/
+footer {
+	background-color: #f4f4f4;
+	border-top: 1px solid #c2c2c2;
+	padding-top: 40px;
+}
+footer img.r {
+	width: 50px;
+	float: left;
+}
+
+footer .social-icon {
+	display: inline-block;
+	padding-top: 10px;
+    padding-left: 16px;
+}
+.social-icon li {
+	display: inline-block;
+	margin: 10px 10px;
+}
+.social-icon a {}
+.social-icon .fa {
+	font-size: 20px;
+	color: #f8c8bb;
+}
+footer .rocks {
+	width: 95px;
+    margin-top: 24px;
+}
+footer .content {
+	margin-top: 60px;
+}
+footer .content h4 {}
+footer .content p {}
+footer .content input {
+	margin-top: 15px;
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 0;
+    font-family: "Averta-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    height: 30px;
+    margin: 0 0 15px 0;
+    padding: 0 8px;
+    width: 100%;
+}
+
+
+
+footer .links {
+	float: right;
+}
+footer ul {
+	display: inline-block;
+	float: left;
+}
+footer .header {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.links a {
+	color: #242425;
+    letter-spacing: 1.25px;
+    line-height: 3;
+}
+.links a:hover {
+	color: #c0355d;
+}
+/*footer end*/
