@@ -16,7 +16,6 @@ li {
 	text-transform: uppercase;
 }
 /*end Pre-fix*/
-
 /*nav start*/
 nav {
 	position: fixed;
@@ -63,6 +62,7 @@ button.join:hover {
     color: #f8b9ab;
 }
 /*nav end*/
+
 /*intro start*/
 .intro {
 	margin-top: 80px;
@@ -147,7 +147,8 @@ button.join:hover {
 .info p {}
 /*info end*/
 
-*subscription start*/
+
+/*subscription start*/
 .subscription {}
 
 /*subscription end*/
