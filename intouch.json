@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name" :"Frequently Asked Questions",
+		"link": "#"
+	},
+	{
+		"id": 2,
+		"name" : "1-877-478-0450 | Hours: 9AM - 5PM PST" ,
+		"link": "#"
+	},
+	{
+		"id": 3,
+		"name" : "Chat | Hours: 8AM - 5PM PST",
+		"link": "#"
+	},
+	{
+		"id": 4,
+		"name" : "Contact Customer Service",
+		"link": "#"
+	},
+	{
+		"id": 5,
+		"name" : "Collaborate | blair@rocksbox.com",
+		"link": "#"
+	},
+	{
+		"id": 6,
+		"name" : "Press | pr@rocksbox.com",
+		"link": "#"
+	}
+]
