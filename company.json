@@ -1,0 +1,21 @@
+[
+	{
+		"id": 1,
+		"name" :"About Us",
+		"link": "#"
+	},
+	{
+		"id": 2,
+		"name" :"Join Our Team",
+		"link": "#"
+	},
+	{
+		"id": 3,
+		"name" :"Privacy Policy",
+		"link": "#"
+	},{
+		"id": 4,
+		"name" :"Terms of Service",
+		"link": "#"
+	}
+]
