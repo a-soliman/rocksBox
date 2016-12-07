@@ -6,4 +6,11 @@ app.controller('servicesCtrl', ['$scope', '$http', function($scope, $http) {
 	})
 }])
 
+app.controller('companyCtrl', ['$scope', '$http', function($scope, $http) {
+	$http.get('company.json').then(function(response) {
+		$scope.company = response.data
+	})
+}])
+
+
 }])
