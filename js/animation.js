@@ -8,4 +8,9 @@ $(window).scroll(function() {
 			$('.info-bg').addClass('magictime slideUp')
 		}
 	})
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 100) {
+			$('.info-box').addClass('magictime vanishIn')
+		}
+	})
 })
